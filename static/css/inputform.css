@@ -1,0 +1,55 @@
+
+.inputform-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.inputform-inputform{
+  gap: 308px;
+  width: 667px;
+  height: 60px;
+  display: flex;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 60px;
+  font-size: 20px;
+  text-indent: 30px;
+  margin-bottom: 20px;
+}
+
+.inputform-inputform::placeholder{
+  display: flex;
+  font-size: 20px;
+}
+
+.inputform-btn {
+  gap: 10px;
+  display: flex;
+  padding: 18px 39px;
+  overflow: hidden;
+  box-shadow: -4px 0px 6px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+  align-items: center;
+  border-radius: 60px;
+  justify-content: center;
+  background-color: rgba(150, 255, 211, 1);
+}
+.inputform-text1 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Leckerli One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
